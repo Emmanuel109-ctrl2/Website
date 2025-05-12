@@ -11,15 +11,15 @@
     <form method="post" action="traitement.php">
         <p>
             <label for="nom">Quel est votre nom ?</label><br/>
-            <input type="text" name="nom" id="nom" tabindex="10" /><br />
+            <input type="text"  placeholder="Enter Name ..." requiredname="nom" id="nom" tabindex="10" /><br />
             <label for="prenom">Quel est votre prénom ?</label><br/>
-            <input type="text" name="prenom" id="prenom" tabindex="20" /><br />
-            <label for="email">Quel est votre e-mail ?</label><br/>
-            <input type="text" name="email" id="email" tabindex="30" /><br /><br />
+            <input type="text" placeholder="Enter Userame ..." required name="prenom" id="prenom" tabindex="20" /><br />
+            <label for="email" >Quel est votre e-mail ?</label><br/>
+            <input type="text" placeholder="Enter Email ..." required name="email" id="email" tabindex="30" /><br /><br />
             <label for="pseudo">Votre pseudo :</label>
-            <input type="text" name="pseudo" id="pseudo" value=" Mateo21" /><br /><br />
+            <input type="text" name="pseudo" id="pseudo" placeholder="Mateo21" required /><br /><br />
             <label for="pass">Votre mot de passe :</label>
-            <input type="password" name="pass" id="pass" /><br />
+            <input type="password" placeholder="Enter password.." required name="pass" id="pass" /><br />
         </p>
     </form>
     <form method="post" action="traitement.php">
@@ -86,8 +86,8 @@
            for="autre">Autre...</label><br />
         </p>
         <p>
-           <label for="precisions">Si "Autre", veuillez préciser :</label><br />
-           <textarea name="precisions" id="precisions" cols="40" rows="4" tabindex="80"></textarea>
+           <label for="precisions" >Si "Autre", veuillez préciser :</label><br />
+           <textarea name="precisions" placeholder="Vos précisions." required id="precisions" cols="40" rows="4" tabindex="80"></textarea>
         </p>
     </fieldset>
     <p>

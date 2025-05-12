@@ -8,7 +8,7 @@
     <h1 style=" color:blue;text-align:  center;"> Formulaire HTML </h1>
     <h1 style="text-align: center">Enregistrement des Etudiants</h1>
     <fieldset>
-    <legend>Etat civil</legend> <!-- Titre du fieldset -->
+    <legend style="text-align: center;">Etat civil</legend> <!-- Titre du fieldset -->
         <p>
             <label for="nom">Nom:</label>
             <input type="text" name="nom" id="nom" tabindex="10" />
@@ -29,7 +29,7 @@
         </p>
     </fieldset>
     <fieldset>
-    <legend>Mes Diplomes</legend> <!-- Titre du fieldset -->
+    <legend style="text-align: center;">Mes Diplomes</legend> <!-- Titre du fieldset -->
     <form method="post" action="traitement.php">
         <p style>
            <input type="checkbox" name="cep" id="vep" /> <label for="cep">CEP</label>
@@ -45,18 +45,20 @@
         <textarea name="adresse" id="adresse" cols="40" rows="4" tabindex="80"></textarea>
     </p>
     <fieldset>
-    <legend>Pays</legend>   
+    <legend style="text-align: center;">Pays</legend>   
         <form method="post" action="traitement.php">
             <p>
+            <center>
                <input type="radio" name="pays" value="bénin" id="bénin" /> <label for="bénin">Bénin</label>
                <input type="radio" name="pays" value="senegal" id="senegal" /> <label for="senegal">Sénégal</label>
                <input type="radio" name="pays" value="france" id="france" /> <label for="france">France</label>
+            </center>
             </p>
         </form>
     </fieldset>
     <form method="post" action="traitement.php"></form>
     <fieldset>
-    <legend>Les Boutons</legend> 
+    <legend style="text-align: center;">Les Boutons</legend> 
     <p>
         <input type="submit"  value="Envoyer"/> <input type="reset" value="Effacer"/> <button type="button" onclick="quitter()">Quitter</button>
     </p>
