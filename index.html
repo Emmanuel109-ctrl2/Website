@@ -1,8 +1,16 @@
-<FRAMESET ROWS="30%,70%">
-    <FRAME SRC="Frame.html"scrolling="no">
-        <FRAMESET COLS="30%,70%">
-            <FRAME SRC="Menu.html" target="fenetreC">
-            <FRAME SRC="A propos.html" name="fenetreC">
-        </FRAMESET>
-</FRAMESET>
-        
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> les frames</title>
+    </head>
+    <frameset  border=4px  framespacing=none rows="30%,70%">
+        <frame  src="Frame.html">   
+            <frameset cols="15%,70%">
+            <frame SRC="Menu.html" >
+
+            <frame name="frame2" src="video.html">
+
+        </frameset>
+    </frameset>
+    </html>
